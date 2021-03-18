@@ -1,5 +1,6 @@
 # LB2 Florentina Muratoska
 
+----------------------------------------------------------
 
 ## **Inhaltsverzeichnis**
 * Einleitung
@@ -60,22 +61,29 @@ Versionsgeschichte betrachten
 git log
 ```
 ### **Vagrant** 
-Mit folgendem Befehl initialisiert man eine gewünschte Box
-```
-vagrant init Beispiel/Box
-```
-Starten der Vagrant Box
+Startet VM
 ```
 vagrant up
 ```
-### **Vagrantfile**
-Definition der Box
+VM herunterfahren
 ```
-config.vm.box "Windows" oder "Ubuntu" ...
+vagrant halt
 ```
-Welcher Anbieter die Maschine Hostet
+Zustand der VM
 ```
-config.vm.provider "Virtualbox" oder "VMware" ...
+vagrant status
+```
+SSH Zugriff auf VM
+```
+vagrant ssh
+```
+Neustart der VM
+```
+vagrant reload
+```
+VM erstellen
+```
+vagrant init ubuntu/trusty64
 ```
 Netzwerk konfiguration der VM
 ```
@@ -83,23 +91,82 @@ config.vm.network "forwarded_port"
 config.vm.network "private_network"
 config.vm.network "public_network"
 ```
-Folgendes Beispiel Zeigt auf wie man direkt beim starten der VM das Betriebsystem
-mit dem Service apache2 vorinstalliert startet.
-```
-config.vm.provision "shell", inline <<-SHELL
-    apt-get update
-    apt-get install -y apache2
-SHELL
-```
+
 ### **Linux** 
 Hier ist eine Tabelle mit ein paar Linux Grundbefehlen 
-| Befehl                             | Beschreibung                                         |
-|:----------------------------------:|:----------------------------------------------------:|
-| sudo apt-get install «Paket»       | Dieser Befehl dient um etwas zu installieren         |
-| sudo cp «Dateiname» «Ziel»         | Kopiert ein gewünschtes File an einem bestimmten Ziel|
-| ls                                 | Kann man sehen was in einem Ordnervorhanden ist      |
-| sudo rm «Dateiname»                | Mann kann ein File löschen mit diesem Befehl         |
-| sudo apt-get update                | Aktualisiert man das OS                              |
+| Befehl        | Beschreibung|
+| ------------- |:-------------:|
+| cd "Ordnername"     | Wechselt in den entsprechenden Ordner    |
+| "Befehl" --help     | Zeigt Hilfe für den angegebenen Befehl an     |
+| ls     | Zeigt den Inhalt des aktuellen Verzeichnisses an     |
+|mkdir  | Erstellt einen Ordner |
+| clear | Terminalausgabe löschen |
+| nano "Datei" | Datei bearbeiten (ggf. erstellen) |
+
 ### **Testfälle**
+#### Testfall 1
+
+| ID            | 01            |
+| ------------- |:-------------:|
+| Beschreibung     |     |
+| Erwartetes Ergebnis     |  |
+#### Durchführung
+| Tester/in          |          |
+| ------------- |:-------------:|
+| Datum     |    |
+| Testergebnis     |      |
+| Fehlerbeschreibung |    |
+
+#### Testfall 2
+
+| ID            | 02            |
+| ------------- |:-------------:|
+| Beschreibung     |     |
+| Erwartetes Ergebnis     |  |
+#### Durchführung
+| Tester/in          |          |
+| ------------- |:-------------:|
+| Datum     |    |
+| Testergebnis     |      |
+| Fehlerbeschreibung |    |
+
+#### Testfall 3
+
+| ID            | 03            |
+| ------------- |:-------------:|
+| Beschreibung     |     |
+| Erwartetes Ergebnis     |  |
+#### Durchführung
+| Tester/in          |          |
+| ------------- |:-------------:|
+| Datum     |    |
+| Testergebnis     |      |
+| Fehlerbeschreibung |    |
+
+#### Testfall 4
+
+| ID            | 04            |
+| ------------- |:-------------:|
+| Beschreibung     |     |
+| Erwartetes Ergebnis     |  |
+#### Durchführung
+| Tester/in          |          |
+| ------------- |:-------------:|
+| Datum     |    |
+| Testergebnis     |      |
+| Fehlerbeschreibung |    |
+
+#### Testfall 5
+
+| ID            | 05           |
+| ------------- |:-------------:|
+| Beschreibung     |     |
+| Erwartetes Ergebnis     |  |
+#### Durchführung
+| Tester/in          |          |
+| ------------- |:-------------:|
+| Datum     |    |
+| Testergebnis     |      |
+| Fehlerbeschreibung |    |
 
 
