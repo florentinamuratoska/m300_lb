@@ -16,6 +16,9 @@
 Für meine LB2 erstelle ich mithilfe von Vagrant einen Webserver. Dort wird eine Webseite gehostet. 
 
 ## **Grafische Übersicht**
+### Nginx Oberfläche
+Bild:
+
 ## **Befehle**
 ### **Git**
 Lokales Repository erstellen:
