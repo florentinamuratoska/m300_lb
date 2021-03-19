@@ -18,7 +18,7 @@ Für meine LB2 erstelle ich mithilfe von Vagrant einen Webserver. Dort wird eine
 ## **Grafische Übersicht**
 ### Nginx Oberfläche
 Bild:
-
+![Grafische Übersicht](Nginx.png "This is a sample image.")
 ## **Befehle**
 ### **Git**
 Lokales Repository erstellen:
