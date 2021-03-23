@@ -9,6 +9,7 @@
     * Vagrant
     * Linux
     * Git
+* Nginx Service
 * Testfälle
 * Quellenverzeichnis
 
@@ -105,6 +106,28 @@ Hier ist eine Tabelle mit ein paar Linux Grundbefehlen
 |mkdir  | Erstellt einen Ordner |
 | clear | Terminalausgabe löschen |
 | nano "Datei" | Datei bearbeiten (ggf. erstellen) |
+
+### Nginx Service
+In den nächsten Zeilen wird beschrieben, wie man einen Nginx Service bereitstellt:
+
+#### Box
+Der erste Schritt liegt darin, eine passende Box herauszusuchen. In meinem Fall war es folgende: *ubuntu/trusty64*
+
+Nachdem kann man mit folgendem Befehl die Box initialisieren:
+
+`vagrant init ubuntu/trusty64`
+
+Daraufhin wir im lokalen Repository eon Vagrantfile erstellt. Dies kann man danach mit folgendem Befehl starten:
+
+
+`vagrant up`
+
+#### Nginx
+
+Um die Webseite zum Nginx Service anzurichten, muss folgenes getan werden:
+Als erstes verbindet man sich via SSH auf die eben erstellte Box:
+
+`vagrant SSH`
 
 ### **Testfälle**
 #### Testfall 1
