@@ -129,70 +129,53 @@ Als erstes verbindet man sich via SSH auf die eben erstellte Box:
 
 `vagrant SSH`
 
+Nun befindet man sich in einem Linux-Terminal und kann folgende Befehle nacheinander eingeben:
+
+`apt-get update
+apt install -y nginx 
+service nginx start
+service nginx status`
+
+
+
 ### **Testfälle**
 #### Testfall 1
 
 | ID            | 01            |
 | ------------- |:-------------:|
-| Beschreibung     |     |
-| Erwartetes Ergebnis     |  |
+| Beschreibung     |  Im Vagrantfile mit folgender Funktion "config.vm.provison" SHELL Befehle durchführen.   |
+| Erwartetes Ergebnis     | Der Service Nginx beim vagrant up installieren. |
 #### Durchführung
-| Tester/in          |          |
+| Tester/in          | Muratoska Florentina         |
 | ------------- |:-------------:|
-| Datum     |    |
-| Testergebnis     |      |
-| Fehlerbeschreibung |    |
+| Datum     |  22. März 2021  |
+| Testergebnis     |  Der Service Nginx wurde erfolgreich installiert und gestartet  |
+| Fehlerbeschreibung |  Keine  |
 
 #### Testfall 2
 
 | ID            | 02            |
 | ------------- |:-------------:|
-| Beschreibung     |     |
-| Erwartetes Ergebnis     |  |
+| Beschreibung     |  Die Static IP Einstellung zu DHCP ändern im Vagrantfile mit der Funktion "config.vm.network"   |
+| Erwartetes Ergebnis     | Die VM bezieht eine IP Adresse in meinem Netzwerk über DHCP beim straten |
 #### Durchführung
-| Tester/in          |          |
+| Tester/in          |  Muratoska Florentina       |
 | ------------- |:-------------:|
-| Datum     |    |
-| Testergebnis     |      |
-| Fehlerbeschreibung |    |
+| Datum     |  23. März 2021  |
+| Testergebnis     |   Die VM konnte man nicht mehr starten. Ich musste die Konfiguration die ich im Vagrantfile getätigt habe aus Kommentieren   |
+| Fehlerbeschreibung |  "VM cant start a fatal error occured while the network configuration"      |
 
 #### Testfall 3
 
 | ID            | 03            |
 | ------------- |:-------------:|
-| Beschreibung     |     |
-| Erwartetes Ergebnis     |  |
+| Beschreibung     | Im Vagrantfile die Box Settings apassen mit der funktion "config.vm.provider"     |
+| Erwartetes Ergebnis     | Die CPU und die RAM im Vagrantfile angeben. CPU = 2 und RAM = 2 |
 #### Durchführung
-| Tester/in          |          |
+| Tester/in          |  Muratoska Florentina        |
 | ------------- |:-------------:|
-| Datum     |    |
-| Testergebnis     |      |
-| Fehlerbeschreibung |    |
-
-#### Testfall 4
-
-| ID            | 04            |
-| ------------- |:-------------:|
-| Beschreibung     |     |
-| Erwartetes Ergebnis     |  |
-#### Durchführung
-| Tester/in          |          |
-| ------------- |:-------------:|
-| Datum     |    |
-| Testergebnis     |      |
-| Fehlerbeschreibung |    |
-
-#### Testfall 5
-
-| ID            | 05           |
-| ------------- |:-------------:|
-| Beschreibung     |     |
-| Erwartetes Ergebnis     |  |
-#### Durchführung
-| Tester/in          |          |
-| ------------- |:-------------:|
-| Datum     |    |
-| Testergebnis     |      |
-| Fehlerbeschreibung |    |
+| Datum     | 23. März 2021   |
+| Testergebnis     |  Ich konnte erfolgreich die Anpassung durchführen      |
+| Fehlerbeschreibung |  Keine Fehler  |
 
 
