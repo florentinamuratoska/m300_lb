@@ -182,4 +182,6 @@ service nginx status`
 | Testergebnis     |  Ich konnte erfolgreich die Anpassung durchführen      |
 | Fehlerbeschreibung |  Keine Fehler  |
 
+### **Reflexion**
 
+In diesem Projekt, dass ich mehrere Wochen bearbeitet habe, habe ich eine ganz neue Welt entdeckt. Mit Git, Vagrant und Markdown bin ich zuvor noch nie in Berührung gekommen, doch durch dieses Projekt schon. Ich habe sehr viele verschiedene Sachen gelernt, vorallem den Umgang mit Vagrant-, Git- und Markdowncommands habe ich näher kennengelernt. Durch die Partnerarbeit mit Alex, konnte ich das Thema vertiefen, was mir in Zukunft sicher zu Gute kommen wird. Probleme gab es am Anfang, da ich keinen Durchblick und keine Ahnung hatte, wo ich überhaupt Anfangen soll. Je mehr ich mit Git gespielt habe, desto besser habe ich das Ganze verstanden, somit ich schlussendlich dann das Projekt fertig geschafft habe. 
