@@ -11,12 +11,14 @@
     * Git
 * Nginx Service
 * Testfälle
-* Quellenverzeichnis
+* Reflexion
 
 ## **Einleitung**
 Für meine LB2 erstelle ich mithilfe von Vagrant einen Webserver. Dort wird eine Webseite gehostet. 
 
 ## **Grafische Übersicht**
+Das folgende Bild zeigt auf wie die Umgebung aufgebaut ist. 
+![Netzwerkplan](\m300_lb\lb2\Netzwerkplan.png)
 ### Nginx Oberfläche
 Bild:
 ![Grafische Übersicht](m300_lb/lb2/Nginx.png "This is a sample image.")
@@ -112,6 +114,8 @@ In den nächsten Zeilen wird beschrieben, wie man einen Nginx Service bereitstel
 
 #### Box
 Der erste Schritt liegt darin, eine passende Box herauszusuchen. In meinem Fall war es folgende: *ubuntu/trusty64*
+
+**Hinweis**: Taste S drucken, damit es ins System bootet!
 
 Nachdem kann man mit folgendem Befehl die Box initialisieren:
 
