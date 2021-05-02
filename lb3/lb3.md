@@ -80,4 +80,5 @@ Mein Sicherheitsmerkmal ist es, dass der Admin in der Datenbank Passwortgeschüt
 
 ### **Reflexion**
 
-In diesem Projekt, dass ich mehrere Wochen bearbeitet habe, habe ich eine ganz neue Welt entdeckt. Mit Git, Vagrant und Markdown bin ich zuvor noch nie in Berührung gekommen, doch durch dieses Projekt schon. Ich habe sehr viele verschiedene Sachen gelernt, vorallem den Umgang mit Vagrant-, Git- und Markdowncommands habe ich näher kennengelernt. Durch die Partnerarbeit mit Alex, konnte ich das Thema vertiefen, was mir in Zukunft sicher zu Gute kommen wird. Probleme gab es am Anfang, da ich keinen Durchblick und keine Ahnung hatte, wo ich überhaupt Anfangen soll. Je mehr ich mit Git gespielt habe, desto besser habe ich das Ganze verstanden, somit ich schlussendlich dann das Projekt fertig geschafft habe. 
+
+In der LB3 habe wieder ganz viel neues dazugelernt, vorallem wie man mit Docker arbeiten tut. Durch die Partnerarbeit mit Alex konnte ich das Thema noch mehr vertiefen. Mit Docker zu arbeiten war für mich am Anfang sehr schwer, da ich zuvor noch nie damit in berührung gekommen bin. Je mehr ich damit gespielt habe, desto einfacher ging es. Diese Projekt war etwas tolle für mich und meine Zukunft. 
