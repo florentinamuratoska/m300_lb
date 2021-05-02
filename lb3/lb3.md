@@ -5,7 +5,7 @@
     - Einleitung
     - Docker
     - Befehle
-- Code
+- Sicherheitsmerkmal
 - Test
 - Reflexion
 ---------------------------------------------------------
@@ -33,4 +33,9 @@ Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Cont
 | run         | Erstellt neuen Container und startet ihn gleichzeitig |
 | inspect     | Zeigt detailierte Infos über den Container |
 | stop        | Stopt den Container |
-| rm          | Löscht den Container 7
+| rm          | Löscht den Container |
+
+# Sicherheitsmerkmal
+Mein Sicherheitsmerkmal ist es, dass der Admin in der Datenbank Passwortgeschützt ist. 
+
+# Test
